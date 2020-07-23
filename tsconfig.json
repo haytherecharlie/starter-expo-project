@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "api/*": ["./src/api/*"],
+      "config/*": ["./src/config/*"],
+      "services/*": ["./src/services/*"],
+      "ui/*": ["./src/ui/*"]
+    },
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
@@ -8,5 +15,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true
-  }
+  },
+  "include": ["src"]
 }

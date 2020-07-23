@@ -4,9 +4,9 @@
     "slug": "expo-starter",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/ui/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/ui/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
